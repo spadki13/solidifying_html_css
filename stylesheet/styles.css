@@ -1,6 +1,7 @@
 * { 
     font-family: fantasy;
     background-color: #dddddd;
+    color: inherit;
 
 }
 
@@ -22,14 +23,49 @@
 
 .herotext {
     font-size: 20px;
+    font-style: italic;
+}
+
+.lists {
+    margin: 10%;
+    display: flex;
+    flex: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul.lists {
+    list-style-type: none;
 }
 
 .button {
-    margin-top: 5%;
+    display: flex;
+    flex: auto;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
 }
 
+.notified {
+    margin: 20px;
+    
+}
+
+
 .updated {
-    font-size: 22px;
-    padding: 15px
+    margin: 20px;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.updated:hover {
+    background-color: #196695;
+    color: #dddddd;
 }
