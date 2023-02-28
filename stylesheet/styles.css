@@ -1,0 +1,35 @@
+* { 
+    font-family: fantasy;
+    background-color: #dddddd;
+
+}
+
+.header {
+    display: flex;
+    flex: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero {
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10%
+
+}
+
+.herotext {
+    font-size: 20px;
+}
+
+.button {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.updated {
+    font-size: 22px;
+    padding: 15px
+}
